@@ -1,0 +1,151 @@
+.blockquote {
+    background-color: #000;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    color: #fff;
+    display: grid;
+    justify-items: center;
+  
+}
+  
+  .blockquote p {
+    font-size: 16px;
+
+    
+  }
+  
+  .reporting_text1 {
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+  
+  .reporting_text1 a {
+    color: #337ab7;
+    text-decoration: none;
+
+  }
+  
+  .reporting_text1 a:hover {
+    color: #23527c;
+  }
+  
+  .reporting_text1 p {
+    font-size: 16px;
+
+  }
+  .reporting_image {
+ 
+    height: 400px;
+
+    background-position: center;
+    border-radius: 10px;
+
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+
+  }
+  
+  .reporting_image img {
+    
+    height: 100%;
+ 
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .reporting_image:hover img {
+    transform: scale(1.1);
+  }
+  .reporting_content {
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+  
+  .reporting_content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .reporting_content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .reporting_content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .reporting_content li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  .reporting_content a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  .reporting_content a:hover {
+    color: #23527c;
+  }
+  
+  .reporting_content_text {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .reporting_phone_numbers{
+    color: white;
+    font-size:15p
+  }
+  
+  .reporting_links {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 10px;
+  }
+  
+  .reporting_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .reporting_links li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  .reporting_links a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  .reporting_links a:hover {
+    color: #23527c;
+  }

@@ -1,0 +1,239 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  /* Add your other shared styles here */
+  
+  .faqs-container, .tutorials-container {
+    background-color: #1a1a1a; /* Dark gray */
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faqs-container h2, .tutorials-container h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #ff69b4;
+  }
+  
+  .faqs-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .faqs-container li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+  }
+  
+  .faqs-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff69b4;
+  }
+  
+  .faqs-container p, .tutorials-container p {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .tutorials-container .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tutorials-container .grid-item {
+    background-color: #2a2a2a; /* Slightly lighter gray */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    transition: transform 0.3s;
+  }
+  
+  .tutorials-container .grid-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .tutorials-container video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tutorials-container button {
+    background: linear-gradient(45deg, #ff69b4, #ff1493); /* Pink gradient */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .tutorials-container button:hover {
+    background: linear-gradient(45deg, #ff1493, #ff69b4);
+    transform: scale(1.05);
+  }
+  
+  .active {
+    background-color:  #FF69B4; /* darker shade of pink */
+    color: #000000; /* white text color */
+    padding: 10px 15px; /* more padding */
+    border-radius: 10px; /* rounder edges */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  /* Add your other shared styles here */
+  
+  .faqs-container, .tutorials-container {
+    background-color: #1a1a1a; /* Dark gray */
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faqs-container h2, .tutorials-container h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #ff69b4;
+  }
+  
+  .faqs-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .faqs-container li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+  }
+  
+  .faqs-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff69b4;
+  }
+  
+  .faqs-container p, .tutorials-container p {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .tutorials-container .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tutorials-container .grid-item {
+    background-color: #2a2a2a; /* Slightly lighter gray */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    transition: transform 0.3s;
+  }
+  
+  .tutorials-container .grid-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .tutorials-container video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tutorials-container button {
+    background: linear-gradient(45deg, #ff69b4, #ff1493); /* Pink gradient */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .tutorials-container button:hover {
+    background: linear-gradient(45deg, #ff1493, #ff69b4);
+    transform: scale(1.05);
+  }
+  
+  .active {
+    background-color:  #FF69B4; /* darker shade of pink */
+    color: #000000; /* white text color */
+    padding: 10px 15px; /* more padding */
+    border-radius: 10px; /* rounder edges */
+  }
+  .grid-item {
+    padding: 20px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .classy-button {
+    background-color: #e59bc7; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px 5px 20px; /* Adjust the padding to make it more even */
+    border: none; /* Remove the default border */
+    border-radius: 5px; /* Add a rounded corner effect */
+    cursor: pointer; /* Change the cursor to a hand pointer */
+    font-size: 16px; /* Increase the font size */
+    font-family: Arial, sans-serif; /* Use a clean font family */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove the default underline */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .classy-button:hover {
+    background-color: #af5e8f; /* Change the background color on hover */
+  }
+  
+  .classy-button:active {
+    background-color: #932784; /* Change the background color on active */
+  }

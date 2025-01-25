@@ -1,0 +1,59 @@
+{%extends "index.html" %}
+{% block content %}
+    <main>
+        <section class="faqs-tutorials">
+            <div class="faqs-container">
+                <h2>Frequently Asked Questions</h2>
+                <ul>
+                    <li>
+                        <h3>Rights against domestic violence</h3>
+                        <button class="classy-button" onClick="window.location.href='https://www.legalserviceindia.com/legal/article-264-rights-against-domestic-violence.html'" >Content about rights against domestic violence</button>
+                        
+                    </li>
+                    <li>
+                        <h3>Workplace harassment laws</h3>
+                        <button class="classy-button" onClick="window.location.href='https://www.legalserviceindia.com/legal/legal/article-16912-mental-harassment-at-workplace-laws-in-india.html'" >Content about workplace harassment laws</a>
+                        
+                    </li>
+                    <li>
+                        <h3>THE IMMORAL TRAFFIC (PREVENTION)</h3>
+                        <button class="classy-button" onClick="window.location. href='/static/pdf/hello.pdf'" download>download pdf</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tutorials-container">
+                <h2>Video Tutorials</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3>Self-defense techniques</h3>
+                        <a href="https://youtu.be/KVpxP3ZZtAc?si=wVkH686jBZV8uyrB" target="_blank">
+                          <img src="static/images/self-defense-thumbnail.jpg" alt="Self-defense techniques thumbnail">
+                        </a>
+                        <button class="share-btn" data-video-id="VIDEO_ID_1">Share</button>
+                        <button>Download</button>
+                      </div>
+                    <div class="grid-item">
+                        <h3>Staying calm in danger</h3>
+                        <a href="https://youtu.be/y49YaYtvI14?si=qz1yML1n2hRI4mYz" target="_blank">
+                            <img src="/static/images/stay-calm-in-danger-thumbnail.jpg" alt="Staying calm in danger thumbnail">
+                          </a>
+                          <button class="share-btn" data-video-id="VIDEO_ID_2">Share</button>
+                          <button>Download</button>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Situational awareness</h3>
+                        <a href="https://youtu.be/5ddI9KWHZ6U?si=uVWnjNftN-V2sxX5" target="_blank">
+                            <img src="static/images/situational-awareness-thumbnail.jpg" alt="Staying calm in danger thumbnail">
+                          </a>
+                          <button class="share-btn" data-video-id="VIDEO_ID_2">Share</button>
+                          <button>Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Women's Safety and Empowerment</p>
+    </footer>
+    <script src="static/js/faqs.js"></script>
+{%endblock%}
