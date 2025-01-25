@@ -1,1 +1,1 @@
-gunicorn myapp:app
+gunicorn==21.2.0;
