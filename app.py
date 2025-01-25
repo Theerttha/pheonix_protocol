@@ -6,6 +6,7 @@ from datetime import timedelta, datetime
 
 app = Flask(__name__)
 db = SQLAlchemy()
+database_url = os.environ.get('DATABASE_URL')
 if os.environ.get('RENDER'):  # Running on Render
     database_url = os.environ.get('DATABASE_URL')
     if database_url and database_url.startswith("postgres://"):
