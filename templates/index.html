@@ -11,10 +11,11 @@
     
 </head>
 <body>
+    {% block content %}
     <header>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/" class="active">>Home</a></li>
                 <li><a href="/reporting">Reporting and Violence</a></li>
                 <li><a href="/faqs">FAQ's and Tutorials</a></li>
                 <li><a href="/gadgets">Gadgets and Resources</a></li>
@@ -22,7 +23,7 @@
             </ul>
         </nav>
     </header>
-    {% block content %}
+    
     <div>
 
         <main>
@@ -31,17 +32,6 @@
                 <!-- Posts will be dynamically inserted here -->
             </section>
             <div id="loader" class="hidden">Loading...</div>
-            
-     
-            
-            <section class="categories">
-                <h2>Categories</h2>
-                <ul>
-                    <li><a href="#">Domestic Violence</a></li>
-                    <li><a href="#">Workplace Harassment</a></li>
-                    <li><a href="#">Maternity Benefits</a></li>
-                </ul>
-            </section>
             <div id="image-container"></div>
             <div id="loader"></div>
         </main>
