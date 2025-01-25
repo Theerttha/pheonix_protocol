@@ -1,0 +1,77 @@
+{% extends "index.html" %}
+{% block content %}  
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/reporting" >Reporting and Violence</a></li>
+                    <li><a href="/faqs">FAQ's and Tutorials</a></li>
+                    <li><a href="/gadgets">Gadgets and Resources</a></li>
+                    <li><a href='/pheonix'class="active">Pheonix</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <form action="/pheonix" method="POST">
+            <div class="story">
+                {% for i in stories %}
+                    <div class>
+                        <h>
+                            {{i.content}}
+                        </h>
+                    </div>
+                    
+                    <button class="like-button" name="post_like" type="submit" value={{i.id}}>Like ({{i.likes}})</button>
+                    <button class="comment-button" type="submit" name="comment_button" value={{i.id}}>
+                        Comment
+                    </button>
+                    {%set k=i.id%}
+                    {{ k|string }}
+                    {% if k not in comment %}
+                    
+                        {% for j in d[i.id] %}
+                        <div class="comment">
+                          
+                            {{j}}
+                            
+                        </div>
+                        {%endfor%}
+                        <div class="comment-section">
+                            <textarea name="comment_pheonix" placeholder="Write a comment..."></textarea>
+                            <button type="submit" name="comment_submit">Submit</button>
+                        </div>
+
+                    {% endif %}
+                {% endfor %}
+            </div>
+   
+            <div id="post-story">
+                <h2>Post Your Own Story</h2>
+                
+                    <textarea name="pheonix_story" id="pheonix_story" type="text" placeholder="Share your survival story..."></textarea>
+          
+     
+                    <button id="submit-story-button" name="submit_story" type="submit" value={{1}}>Submit Story</button>
+              
+
+
+            </div>
+
+        </form>
+
+
+                
+   
+
+    </main>
+    <footer>
+        <p>Made with ❤ to inspire others. <a href="#">Learn more</a></p>
+    </footer>
+    <script>
+ 
+
+
+    </script>
+{% endblock %}
