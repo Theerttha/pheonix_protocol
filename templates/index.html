@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Safety and Empowerment</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/gadgets.css')}}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Reporting and Violence</a></li>
+                <li><a href="">FAQ's and Tutorials</a></li>
+                <li><a href="/gadgets">Gadgets and Resources</a></li>
+                <li><a href="">Community and Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    {% block content %}
+    <div>
+
+        <main>
+            <section class="featured-posts" id="posts-container">
+                <h2>Featured Posts</h2>
+                <!-- Posts will be dynamically inserted here -->
+            </section>
+            <div id="loader" class="hidden">Loading...</div>
+            
+     
+            
+            <section class="categories">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Domestic Violence</a></li>
+                    <li><a href="#">Workplace Harassment</a></li>
+                    <li><a href="#">Maternity Benefits</a></li>
+                </ul>
+            </section>
+            <div id="image-container"></div>
+            <div id="loader"></div>
+        </main>
+
+    </div>
+    {% endblock %}
+    <footer>
+        <p>&copy; 2025 Women's Safety and Empowerment</p>
+    </footer>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
