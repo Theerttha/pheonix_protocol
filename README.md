@@ -31,14 +31,36 @@ For Software:
 - [Frameworks used]:Flask
 - [Libraries used]:Flask,flask sqlalchemy,os,datetime
 - [Tools used]:Jinja2
+- [Database used]:Postgresql
+
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+
+Creating environment env
+python -m venv env      
+
+Activating environment
+env\Scripts\activate
+
+For render
+pip install guicorn 
+
+pip install jinja2
+
+Python libraries
+pip install flask
+pip install flask_sqlalchemy
+pip install sqlalchemy
+pip install psycopg2
+
+To enable requirements.txt file
+pip freeze > requirements.txt
 
 # Run
-[commands]
+env\Scripts\activate
+python -u \path_to_app.py
 
 ### Project Documentation
 For Software:
@@ -57,14 +79,6 @@ For Software:
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Team](Add photo of your team here)
@@ -88,9 +102,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Vaneesa Joju: Frontend using html,css and js
+- Theerttha S: Backend using flask and frontned using html,css,python
+
 
 ---
 Made with ❤️ at TinkerHub
