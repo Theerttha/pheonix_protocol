@@ -95,25 +95,18 @@ For Software:
 
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+Routing with Python Flask
+        |
+        v
+Frontend Development (HTML, CSS, JS)
+        |
+        v
+Backend Development (Flask + PostgreSQL)
 
-
-# Build Photos
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-https://drive.google.com/file/d/1X_RYAscyddXwFyR9t1a8crFCYx4HRctG/view?usp=sharing
+https://drive.google.com/file/d/1e6chpQkTXCzxYSCWDWIKEQqyeME7RUqk/view?usp=sharing
 
 
 ## Team Contributions
