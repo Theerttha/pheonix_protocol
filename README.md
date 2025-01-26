@@ -16,18 +16,26 @@
 https://pheonix-protocol.onrender.com
 
 ### Project Description
-[2-3 lines about what your project does]
+Our Women Safety Website is a safe haven designed to empower, protect, and inspire women. It offers tools, resources, and a supportive community to ensure no woman ever feels alone in her journey to safety and strength.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Women often live with constant fear and anxiety, worrying about their safety in everyday situations. This emotional burden, combined with limited access to reliable tools and support systems, amplifies feelings of helplessness. The absence of tech-driven solutions that are both accessible and impactful leaves many without the confidence and security they deserve.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Our Website is built with compassion and purpose to address these issues:
+
+Phoenix, a warm and safe space for survivors to share their inspiring stories anonymously, connect with others, and find strength in community discussions. With an intuitive backend, users can engage by liking and commenting on posts, bringing the most impactful stories to the forefront to inspire others.
+
+A reporting and violence page that enables women to quickly and directly report issues to the right authorities, ensuring timely help and action.
+
+FAQs and tutorials, including practical video guides that can be shared on Twitter, offering knowledge and confidence to handle challenging situations.
+
+A gadgets and resources section that helps women find trusted safety tools with ease, providing direct links to purchase them and feel more secure.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]: Python,html,css,js
+- [Languages used]: Python,JavaScript,Html,Css
 - [Frameworks used]:Flask
 - [Libraries used]:Flask,flask sqlalchemy,os,datetime
 - [Tools used]:Jinja2
