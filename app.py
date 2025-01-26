@@ -89,7 +89,7 @@ def community():
                         try:
                             likes=session['start']
                             likes.append(i.id)
-                            session.pop('likes')
+                            session.pop('start')
                             session['start']=likes
                             i.likes+=1
                             db.session.commit()
