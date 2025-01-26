@@ -35,11 +35,16 @@ A gadgets and resources section that helps women find trusted safety tools with 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]: Python,JavaScript,Html,Css
-- [Frameworks used]:Flask
-- [Libraries used]:Flask,flask sqlalchemy,os,datetime
-- [Tools used]:Jinja2
-- [Database used]:Postgresql
+- [Languages used]:
+  #### Python,JavaScript,Html,Css
+- [Frameworks used]:
+- ### Flask
+- [Libraries used]:
+- ### Flask,flask sqlalchemy,os,datetime
+- [Tools used]:
+- ### Jinja2
+- [Database used]:
+- ### Postgresql
 
 
 ### Implementation
@@ -73,15 +78,21 @@ python -u \path_to_app.py
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot 2025-01-26 080314](https://github.com/user-attachments/assets/9b8cea45-d8ef-4675-b71d-8e237d4ba6a1)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot 2025-01-26 080433](https://github.com/user-attachments/assets/18bdb841-5ea5-41b8-a301-34b996cd11c1)
+
+![Screenshot 2025-01-26 080447](https://github.com/user-attachments/assets/3eea2582-201e-45e6-b30d-aad0ada10623)
+
+![Screenshot 2025-01-26 075916](https://github.com/user-attachments/assets/29c1835f-eb45-4418-b6e2-bfdb84fa58e0)
+
+![Screenshot 2025-01-26 075949](https://github.com/user-attachments/assets/5204df09-5b3d-459a-a37b-8230dc94b221)
+
+![Screenshot 2025-01-26 075829](https://github.com/user-attachments/assets/6c55d5f5-1a2d-4357-aaf7-3b690832a2d2)
+
+
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -90,7 +101,6 @@ For Software:
 
 # Build Photos
 ![Team](Add photo of your team here)
-
 
 ![Components](Add photo of your components here)
 *List out all components shown*
@@ -103,11 +113,8 @@ For Software:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1X_RYAscyddXwFyR9t1a8crFCYx4HRctG/view?usp=sharing
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - Vaneesa Joju: Frontend using html,css and js
