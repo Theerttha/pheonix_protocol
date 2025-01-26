@@ -116,7 +116,7 @@ def community():
         comment_button=request.form.get('comment_button')
 
         if comment_button!=None:
-
+            comment_button=int(comment_button)
             if comment_button not in session['comment']:
                 session['comment_button']=comment_button
                 c=session['comment']

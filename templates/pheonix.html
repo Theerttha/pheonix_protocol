@@ -28,13 +28,18 @@
                         Comment
                     </button>
                     {%set k=i.id%}
-                    {{ k|string }}
-                    {% if k not in comment %}
                     
+
+                    {% if k not in comment %}
+
                         {% for j in d[i.id] %}
                         <div class="comment">
                           
-                            {{j}}
+                            {% if k is number %}
+                                {{ j}}
+                           
+                            {% endif %}
+
                             
                         </div>
                         {%endfor%}
