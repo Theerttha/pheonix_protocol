@@ -246,7 +246,7 @@ footer a:hover {
   padding: 10px 15px; /* more padding */
   border-radius: 10px; /* rounder edges */
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 
 body {
   font-family: 'Poppins', Arial, sans-serif;
@@ -337,4 +337,33 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+.story_content {
+  font-size: 18px;
+  font-family: Poppins,Arial, sans-serif;
+  color:pink;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.comment {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color:rgb(216, 213, 213);
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+.comment_section{
+  margin-top:10px;
+}
+.comment_box{
+  margin-top: 30px;
+  margin-bottom: 10px;
 }

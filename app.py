@@ -70,7 +70,7 @@ def community():
             d[i.post_id]=[i.content]
         else:
             d[i.post_id].append(i.content)
-    print(session['comment'])
+
     if request.method=='GET':
         stories=main_post.query.order_by(desc(main_post.likes)).all()
         return render_template("pheonix.html",stories=stories,d=d,comment=session['comment'])
@@ -79,7 +79,7 @@ def community():
 
         #post_comment=request.form['']
         #comment_val=request.form['']
-        print(post_like)
+        
         if post_like!=None:
             stories=main_post.query.order_by(desc(main_post.likes)).all()
             x=int(post_like)
@@ -123,21 +123,21 @@ def community():
                 c.append(comment_button)
                 session.pop('comment')
                 session['comment']=c
-                print(session)
+             
                 return redirect(url_for('community'))
             else:
                 c=session['comment']
                 c.remove(comment_button)
                 session.pop('comment')
                 session['comment']=c
-                print(session)
+              
                 
                 return redirect(url_for('community'))
         comment_pheonix=request.form.get('comment_pheonix')
         comment_submit=request.form.get('comment_submit')
         if comment_pheonix!=None:
             new_line=Comments(content=comment_pheonix,post_id=session['comment_button'],likes=0,time=datetime.now())
-            print(new_line,comment_button)
+           
             try:
                 db.session.add(new_line)
                 db.session.commit()

@@ -17,7 +17,7 @@
         <form action="/pheonix" method="POST">
             <div class="story">
                 {% for i in stories %}
-                    <div class>
+                    <div class="story_content">
                         <h>
                             {{i.content}}
                         </h>
@@ -30,7 +30,7 @@
                     {%set k=i.id%}
                     
 
-                    {% if k not in comment %}
+                    {% if k in comment %}
 
                         {% for j in d[i.id] %}
                         <div class="comment">
@@ -44,7 +44,7 @@
                         </div>
                         {%endfor%}
                         <div class="comment-section">
-                            <textarea name="comment_pheonix" placeholder="Write a comment..."></textarea>
+                            <textarea name="comment_pheonix" class="comment_box" placeholder="Write a comment..."></textarea>
                             <button type="submit" name="comment_submit">Submit</button>
                         </div>
 
