@@ -1,19 +1,19 @@
 
 
-# [Project Name] 🎯
+# LUMINARY🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: PHEONIX_PROTOCOL
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Vaneesa Joju - Govenrnment Engineering College Thrissur
+- Member 2: Theerttha S - Government Engineering College Thrissur
+
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://pheonix-protocol.onrender.com
 
 ### Project Description
 [2-3 lines about what your project does]
@@ -27,15 +27,10 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [Languages used]: Python,html,css,js
+- [Frameworks used]:Flask
+- [Libraries used]:Flask,flask sqlalchemy,os,datetime
+- [Tools used]:Jinja2
 
 ### Implementation
 For Software:

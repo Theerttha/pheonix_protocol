@@ -52,7 +52,7 @@ window.addEventListener('scroll', () => {
 fetchPhotos(currentPage);*/
 
 
-/*
+
 const postsContainer = document.getElementById('posts-container');
 const loader = document.getElementById('loader');
 
@@ -105,4 +105,3 @@ window.addEventListener('scroll', () => {
 
 // Initial load
 fetchPhotos(currentPage);
-*/
